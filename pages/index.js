@@ -168,12 +168,12 @@ export default function Home() {
 
 				<form className="relative" onSubmit={handleValidation}>
 					<div className={`confirmation mt-3 ${isLoading ? 'loading' : ''}`}>
-						<input type="text" maxLength="1" onChange={handleDigitInput} id="0"/>
-						<input type="text" maxLength="1" onChange={handleDigitInput} id="1"/>
-						<input type="text" maxLength="1" onChange={handleDigitInput} id="2"/>
-						<input type="text" maxLength="1" onChange={handleDigitInput} id="3"/>
-						<input type="text" maxLength="1" onChange={handleDigitInput} id="4"/>
-						<input type="text" maxLength="1" onChange={handleDigitInput} id="5"/>
+						<input type="number" maxLength="1" onChange={handleDigitInput} id="0"/>
+						<input type="number" maxLength="1" onChange={handleDigitInput} id="1"/>
+						<input type="number" maxLength="1" onChange={handleDigitInput} id="2"/>
+						<input type="number" maxLength="1" onChange={handleDigitInput} id="3"/>
+						<input type="number" maxLength="1" onChange={handleDigitInput} id="4"/>
+						<input type="number" maxLength="1" onChange={handleDigitInput} id="5"/>
 					</div>
 				</form>
 
